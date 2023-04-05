@@ -2,12 +2,14 @@ import React from 'react';
 
 //import components
 import AlbumList from './components/AlbumList';
+// import ConstMsg from './components/CondMsg';
 
 
-function App() {
+function App(props) {
   return (
     <div>
-    <AlbumList/>
+      {/* <ConstMsg MessageMore="You need more albums!"/>  */}
+      <AlbumList/>
     </div>
   );
 }

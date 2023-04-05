@@ -29,5 +29,5 @@ const StyledDiv = styled.div`
 `;
 
 const AlbumName = styled.h2`
-background-color: yellow;
+background-color: pink;
 `
