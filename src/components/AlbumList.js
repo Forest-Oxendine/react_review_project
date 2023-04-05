@@ -9,7 +9,12 @@ import AlbumCard from './AlbumCard.js';
 function AlbumList() {
   return (
     <>
-
+    {albums.map(album =>
+      <AlbumCard 
+      {...album}
+      key={album.id}
+      />
+      )}
     </>
   );
 }
