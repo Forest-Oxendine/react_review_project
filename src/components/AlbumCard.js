@@ -21,7 +21,7 @@ const StyledDiv = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
-  width: 40%;
+  width: 400px;
   text-align: center;
   margin: auto;
   padding:  60px 20px 40px 20px;

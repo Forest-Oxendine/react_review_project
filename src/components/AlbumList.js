@@ -14,7 +14,7 @@ function AlbumList() {
       {...album}
       key={album.id}
       />
-      )}
+    )}
     </>
   );
 }
