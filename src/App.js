@@ -1,7 +1,7 @@
 import React from 'react';
 
 //import components
-import AlbumList from './AlbumList.js';
+import AlbumList from './components/AlbumList.js';
 // import ConstMsg from './components/CondMsg';
 
 function App(props) {
