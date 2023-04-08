@@ -19,14 +19,17 @@ function InputMessage (){
         // Clears what the user enter in the text box
         setMessage('');
     }
+    // This returns the users input on the dom
     return(
         <>
         <p>You have Submitted:{submittedMessage}</p>
+        {/* Must use input tag for a user to input a message */}
         <input 
         type="text" 
         value={message} 
         onChange={handleInputChange}
          />
+         {/* Handles what happens when the button is clicked */}
         <button onClick={handleSubmit}>Submit</button>
         </>
     )
