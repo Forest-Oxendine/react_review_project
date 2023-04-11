@@ -4,13 +4,15 @@ import React from 'react';
 // import AlbumList from './components/AlbumList.js';
 // import ConstMsg from './components/CondMsg';
 import InputMessage from './components/InputMessage';
+import InputComp2 from './components/InputComp2';
 
 function App(props) {
   return (
     <div>
-      <InputMessage/>
+      {/* <InputMessage/> */}
       {/* <ConstMsg MessageMore="You need more albums!"/>  */}
       {/* <AlbumList/> */}
+      <InputComp2/>
     </div>
   );
 }
